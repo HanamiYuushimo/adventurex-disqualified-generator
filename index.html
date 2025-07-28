@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdvX 2025 警示牌生成器</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>AdventureX 2025 警示牌生成器</h1>
+
+    <div class="editor-container">
+        <div class="editor">
+            <h2>设置</h2>
+            <div class="form-group">
+                <label for="topIcon">顶部图标：</label>
+                <select id="topIcon">
+                    <option value="remove">横杠</option>
+                    <option value="priority_high">叹号</option>
+                    <option value="close">叉号</option>
+                    <option value="check">对勾</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="cardColor">内容区域颜色：</label>
+                <select id="cardColor">
+                    <option value="#D32F2F">红色</option>
+                    <option value="#F9A825">黄色</option>
+                    <option value="#00C95B">绿色</option>
+                    <option value="custom">自定义</option>
+                </select>
+                <input type="color" id="customColor" value="#F9A825" style="display: none;">
+            </div>
+
+            <div class="form-group">
+                <label for="mainText">主要文字(中文)：</label>
+                <input type="text" id="mainText" value="此处游客止步">
+            </div>
+
+            <div class="form-group">
+                <label for="englishText">主要文字(英文)：</label>
+                <input type="text" id="englishText" value="VISITORS KEEP OUT">
+            </div>
+
+            <div class="form-group">
+                <label for="secondaryText">次要文字(中文)：</label>
+                <input type="text" id="secondaryText" value="违者将被列入黑名单">
+            </div>
+
+            <div class="form-group">
+                <label for="secondaryEnglishText">次要文字(英文)：</label>
+                <input type="text" id="secondaryEnglishText" value="VIOLATORS WILL BE DISQUALIFIED">
+            </div>
+
+            <div class="form-group">
+                <label for="bottomIcon">底部图标：</label>
+                <input type="file" id="bottomIcon" accept="image/png/svg">
+            </div>
+
+            <div class="form-group">
+                <label for="cardSize">尺寸：</label>
+                <select id="cardSize">
+                    <option value="9:16">9:16</option>
+                    <option value="3:4">3:4</option>
+                    <option value="A4">A4</option>
+                </select>
+            </div>
+
+            <button id="generateBtn">生成警示牌</button>
+        </div>
+
+        <div class="preview-container">
+            <h2>预览</h2>
+            <div id="preview" class="warning-card">
+                <div class="top-icon">
+                    <span class="material-icons">remove</span>
+                </div>
+                <div class="card-content">
+                    <div class="word-content">
+                        <div class="main-text">此处游客止步</div>
+                        <div class="english-text">VISITORS KEEP OUT</div>
+                        <div class="secondary-text">违者将被列入黑名单</div>
+                        <div class="secondary-english-text">VIOLATORS WILL BE DISQUALIFIED</div>
+                    </div>
+                    <div class="bottom-icon">
+                        <img id="bottomIconPreview" src="vector-logo.svg" alt="adventure-x logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.editor-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.editor {
+    flex: 1;
+    min-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.preview-container {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"] {
+    text-transform: uppercase;
+}
+
+input[type="file"] {
+    width: 100%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #388E3C;
+}
+
+/* 警示牌样式 */
+.warning-card {
+    position: relative;
+    background-color: #333; /* 黑色背景 */
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 9/16;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    transform: translateZ(0); /* 启用硬件加速 */
+    backface-visibility: hidden; /* 提高渲染性能 */
+}
+
+/* 尺寸样式 */
+.warning-card[data-size="9:16"] {
+    aspect-ratio: 9/16;
+}
+
+.warning-card[data-size="3:4"] {
+    aspect-ratio: 3/4;
+}
+
+.warning-card[data-size="A4"] {
+    aspect-ratio: 1/1.414;
+}
+
+.top-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.top-icon .material-icons {
+    font-size: 48px;
+    background-color: #D32F2F; /* 默认与内容区域颜色一致 */
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    background-color: #D32F2F; /* 默认色 */
+    margin: 0 15px 15px 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transform: translateZ(0);
+    backface-visibility: hidden; /* 提高渲染性能 */
+    -webkit-font-smoothing: antialiased; /* 改善文字渲染 */
+}
+
+.word-content {
+    display: inline-block;
+    padding-top: 40px;
+}
+
+.main-text {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.english-text {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.secondary-text {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.secondary-english-text {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.bottom-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+.bottom-icon img {
+    width: 60px;
+    height: 60px;
+    filter: brightness(0) invert(1); /* 使图标变为白色 */
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .editor-container {
+        flex-direction: column;
+    }
+
+    .warning-card {
+        max-width: 300px;
+    }
+
+    .main-text {
+        font-size: 24px;
+    }
+
+    .english-text {
+        font-size: 20px;
+    }
+
+    .secondary-text {
+        font-size: 18px;
+    }
+
+    .secondary-english-text {
+        font-size: 16px;
+    }
+
+    .top-icon .material-icons {
+        font-size: 36px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .word-content {
+        padding-top: 20px;
+    }
+
+    .bottom-icon img {
+        width: 40px;
+        height: 40px;
+    }
+}
