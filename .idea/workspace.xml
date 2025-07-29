@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="781d4c02-e62c-4c1e-82e0-f9cf9ebe6344" name="更改" comment="去除尺寸选择；导出文件待修复">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="781d4c02-e62c-4c1e-82e0-f9cf9ebe6344" name="更改" comment="去除尺寸选择；导出文件待修复" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "HanamiYuushimo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/HanamiYuushimo/adventurex-disqualified-generator.git",
+    "accountId": "c7a2c446-6dcd-436c-9288-dc14675e09c5"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -68,7 +78,7 @@
       <workItem from="1753669510058" duration="242000" />
       <workItem from="1753755236486" duration="3472000" />
       <workItem from="1753762047803" duration="2902000" />
-      <workItem from="1753781016578" duration="3113000" />
+      <workItem from="1753781016578" duration="3354000" />
     </task>
     <task id="LOCAL-00001" summary="去除尺寸选择；导出文件待修复">
       <option name="closed" value="true" />
