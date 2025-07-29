@@ -42,7 +42,7 @@
 
             <div class="form-group">
                 <label for="englishText">主要文字(英文)：</label>
-                <input type="text" id="englishText" value="VISITORS KEEP OUT">
+                <input type="text" id="englishText" value="VISITORS KEEP OUT" style="text-transform: uppercase;">
             </div>
 
             <div class="form-group">
@@ -52,21 +52,12 @@
 
             <div class="form-group">
                 <label for="secondaryEnglishText">次要文字(英文)：</label>
-                <input type="text" id="secondaryEnglishText" value="VIOLATORS WILL BE DISQUALIFIED">
+                <input type="text" id="secondaryEnglishText" value="VIOLATORS WILL BE DISQUALIFIED" style="text-transform: uppercase;">
             </div>
 
             <div class="form-group">
                 <label for="bottomIcon">底部图标：</label>
                 <input type="file" id="bottomIcon" accept="image/png/svg">
-            </div>
-
-            <div class="form-group">
-                <label for="cardSize">尺寸：</label>
-                <select id="cardSize">
-                    <option value="9:16">9:16</option>
-                    <option value="3:4">3:4</option>
-                    <option value="A4">A4</option>
-                </select>
             </div>
 
             <button id="generateBtn">生成警示牌</button>
@@ -95,5 +86,6 @@
 </div>
 
 <script src="script.js"></script>
+<script src="html2canvas.js"></script>
 </body>
 </html>
