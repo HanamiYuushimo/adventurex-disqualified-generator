@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
             preview.style.boxShadow = originalShadow;
 
             const link = document.createElement('a');
-            link.download = 'adventurex-warning.png';
+            link.download = 'disqualified.png';
             link.href = canvas.toDataURL('image/png');
             link.click();
         }).catch(err => {
