@@ -17,13 +17,22 @@ body {
 
 h1 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     color: #333;
 }
 
 h2 {
     margin-bottom: 20px;
     color: #333;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+a {
+    color: grey;
 }
 
 .editor-container {
