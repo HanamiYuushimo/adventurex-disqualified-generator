@@ -102,7 +102,7 @@ button:hover {
 /* 警示牌样式 */
 .warning-card {
     position: relative;
-    background-color: #333; /* 黑色背景 */
+    background-color: #060606; /* 黑色背景 */
     color: white;
     border-radius: 8px;
     overflow: hidden;
@@ -110,17 +110,12 @@ button:hover {
     margin-top: 20px;
     width: 100%;
     max-width: 400px;
-    aspect-ratio: 9/16;
+    aspect-ratio: 1/1.414;
     display: flex;
     flex-direction: column;
     padding: 0;
-    transform: translateZ(0); /* 启用硬件加速 */
+    transform: translateZ(0);
     backface-visibility: hidden; /* 提高渲染性能 */
-}
-
-/* 尺寸样式 */
-.warning-card {
-    aspect-ratio: 1/1.414;
 }
 
 .top-icon {

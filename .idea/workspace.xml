@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="781d4c02-e62c-4c1e-82e0-f9cf9ebe6344" name="更改" comment="fix" />
+    <list default="true" id="781d4c02-e62c-4c1e-82e0-f9cf9ebe6344" name="更改" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +84,7 @@
       <workItem from="1753781016578" duration="3354000" />
       <workItem from="1753800048265" duration="595000" />
       <workItem from="1753801252861" duration="2160000" />
-      <workItem from="1753977643630" duration="2855000" />
+      <workItem from="1753977643630" duration="3818000" />
     </task>
     <task id="LOCAL-00001" summary="去除尺寸选择；导出文件待修复">
       <option name="closed" value="true" />
