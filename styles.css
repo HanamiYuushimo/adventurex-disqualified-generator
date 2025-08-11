@@ -39,6 +39,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    align-items: flex-start; /* 防止左侧编辑器随右侧预览高度变化 */
 }
 
 .editor {
@@ -110,7 +111,6 @@ button:hover {
     margin-top: 20px;
     width: 100%;
     max-width: 400px;
-    aspect-ratio: 1/1.414;
     display: flex;
     flex-direction: column;
     padding: 0;

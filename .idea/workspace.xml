@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="781d4c02-e62c-4c1e-82e0-f9cf9ebe6344" name="更改" comment="fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="781d4c02-e62c-4c1e-82e0-f9cf9ebe6344" name="更改" comment="fix 修改图片背景颜色" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +81,7 @@
       <workItem from="1753781016578" duration="3354000" />
       <workItem from="1753800048265" duration="595000" />
       <workItem from="1753801252861" duration="2160000" />
-      <workItem from="1753977643630" duration="3818000" />
+      <workItem from="1753977643630" duration="4246000" />
     </task>
     <task id="LOCAL-00001" summary="去除尺寸选择；导出文件待修复">
       <option name="closed" value="true" />
@@ -118,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753982578117</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix 修改图片背景颜色">
+      <option name="closed" value="true" />
+      <created>1753984327624</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753984327624</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +134,7 @@
     <MESSAGE value="fix 更改导出文件名" />
     <MESSAGE value="fix 添加 GitHub 项目链接" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="fix 修改图片背景颜色" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix 修改图片背景颜色" />
   </component>
 </project>
