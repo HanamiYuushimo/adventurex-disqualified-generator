@@ -1,5 +1,3 @@
-# Adventure '25 警示牌生成器
+# adventurex-disqualified-generator
 
-这是一个能制作 AdventureX 2025 警告牌的小工具。
-
-![](GwmjXtKbgAAdLlP.jpg)
+使用 HTML + CSS + JavaScript 构建的禁止通行提示牌生成器。
